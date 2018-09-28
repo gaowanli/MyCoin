@@ -54,7 +54,7 @@ extension UIDevice {
         let screenBounds = UIScreen.main.bounds
         let width = min(screenBounds.width, screenBounds.height)
         let height = max(screenBounds.width, screenBounds.height)
-        return width / height < 9.0 / 16.0
+        return width / height < 0.55 // 9.0:16.0
     }()
     
     private static let deviceSupportTouchID: Bool = {
