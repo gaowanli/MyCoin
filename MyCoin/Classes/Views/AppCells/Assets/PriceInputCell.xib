@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PriceInputCell" rowHeight="89" id="yUC-sQ-NAX" customClass="PriceInputCell" customModule="MyCoin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yUC-sQ-NAX" id="vfQ-cS-v5I">
+                <rect key="frame" x="0.0" y="0.0" width="423" height="88.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="COE-BN-D35">
+                        <rect key="frame" x="5" y="42" width="6" height="6"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="69B-hd-7N4"/>
+                            <constraint firstAttribute="width" constant="6" id="x2N-T2-qJf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBY-AN-oEB">
+                        <rect key="frame" x="15" y="30" width="116" height="29"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入买入价格" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f8j-Fd-VIb">
+                                <rect key="frame" x="8" y="0.0" width="100" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Abq-33-wYH"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.98039215690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f8j-Fd-VIb" firstAttribute="leading" secondItem="jBY-AN-oEB" secondAttribute="leading" constant="8" id="40t-Qf-Oue"/>
+                            <constraint firstItem="f8j-Fd-VIb" firstAttribute="top" secondItem="jBY-AN-oEB" secondAttribute="top" id="n3z-qq-cFg"/>
+                            <constraint firstAttribute="trailing" secondItem="f8j-Fd-VIb" secondAttribute="trailing" constant="8" id="v2F-JH-vN2"/>
+                            <constraint firstAttribute="bottom" secondItem="f8j-Fd-VIb" secondAttribute="bottom" id="wfd-Nn-fO1"/>
+                            <constraint firstAttribute="height" constant="29" id="wh1-N3-CP5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9m-ga-o9g">
+                        <rect key="frame" x="146" y="30" width="46" height="29"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CNY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEi-Xi-ZwQ">
+                                <rect key="frame" x="8" y="0.0" width="30" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.98039215690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rEi-Xi-ZwQ" firstAttribute="leading" secondItem="a9m-ga-o9g" secondAttribute="leading" constant="8" id="Mmv-r5-Fyd"/>
+                            <constraint firstAttribute="trailing" secondItem="rEi-Xi-ZwQ" secondAttribute="trailing" constant="8" id="T6s-bS-cec"/>
+                            <constraint firstAttribute="bottom" secondItem="rEi-Xi-ZwQ" secondAttribute="bottom" id="YNJ-7m-dxg"/>
+                            <constraint firstItem="rEi-Xi-ZwQ" firstAttribute="top" secondItem="a9m-ga-o9g" secondAttribute="top" id="qL7-jl-970"/>
+                            <constraint firstAttribute="height" constant="29" id="wGj-Gp-afk"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="VtN-wn-OcW">
+                        <rect key="frame" x="325" y="30" width="83" height="29"/>
+                        <segments>
+                            <segment title="单价"/>
+                            <segment title="总价"/>
+                        </segments>
+                        <color key="tintColor" red="0.14251306650000001" green="0.79239916799999999" blue="0.85673952099999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <action selector="segmentedControlValueChanged" destination="yUC-sQ-NAX" eventType="valueChanged" id="vNB-cD-zWf"/>
+                        </connections>
+                    </segmentedControl>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="COE-BN-D35" firstAttribute="centerY" secondItem="jBY-AN-oEB" secondAttribute="centerY" id="EAi-dQ-fgD"/>
+                    <constraint firstAttribute="trailing" secondItem="VtN-wn-OcW" secondAttribute="trailing" constant="15" id="OAo-9u-kAR"/>
+                    <constraint firstItem="jBY-AN-oEB" firstAttribute="centerY" secondItem="vfQ-cS-v5I" secondAttribute="centerY" id="T2I-NX-cOV"/>
+                    <constraint firstItem="a9m-ga-o9g" firstAttribute="leading" secondItem="jBY-AN-oEB" secondAttribute="trailing" constant="15" id="cZI-Qj-Vn7"/>
+                    <constraint firstItem="VtN-wn-OcW" firstAttribute="centerY" secondItem="a9m-ga-o9g" secondAttribute="centerY" id="djm-2a-ipM"/>
+                    <constraint firstItem="jBY-AN-oEB" firstAttribute="leading" secondItem="vfQ-cS-v5I" secondAttribute="leading" constant="15" id="jyz-bg-xCy"/>
+                    <constraint firstItem="COE-BN-D35" firstAttribute="leading" secondItem="vfQ-cS-v5I" secondAttribute="leading" constant="4.5" id="pMU-I6-xXi"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jBY-AN-oEB" secondAttribute="trailing" constant="15" id="rLx-qA-X7e"/>
+                    <constraint firstItem="a9m-ga-o9g" firstAttribute="centerY" secondItem="jBY-AN-oEB" secondAttribute="centerY" id="rnE-uX-aNM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="5QY-TY-J4V"/>
+            <connections>
+                <outlet property="currencyLabel" destination="rEi-Xi-ZwQ" id="b1V-dx-ytJ"/>
+                <outlet property="errorView" destination="COE-BN-D35" id="jZI-B5-E3y"/>
+                <outlet property="segmentedControl" destination="VtN-wn-OcW" id="shN-ZL-InC"/>
+                <outlet property="textField" destination="f8j-Fd-VIb" id="33V-KS-pzH"/>
+            </connections>
+            <point key="canvasLocation" x="85.5" y="76.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,168 @@
+/* 
+ Localized.strings
+ MyCoin
+ 
+ Created by GaoWanli on 2017/11/29.
+ Copyright © 2017年 wl. All rights reserved.
+ */
+
+// Common
+"Common_SyncDataTips" = "同步数据..";
+"Common_SyncDataSuccess" = "数据同步成功";
+"Common_SyncDataErrorRetry" = "数据同步失败，是否重试？";
+"Common_SignIn" = "登陆";
+"Common_SignUp" = "注册";
+"Common_FindPassword" = "找回密码";
+"Common_LogOut" = "注销";
+"Common_LogOutTips" = "确定要退出登陆吗？";
+"Common_SyncDataErrorLogOut" = "数据同步失败，是否继续注销？";
+"Common_FaceID" = "面容ID";
+"Common_TouchID" = "触控ID";
+"Common_ErrorRetry" = "发生了一点小错误~\n请尝试重试";
+"Common_CheckInput" = "请检查所有输入项是否正确";
+"Common_Assets" = "资产";
+"Common_Projects" = "项目";
+"Common_Settings" = "设置";
+"Common_MyCollection" = "我的关注";
+"Common_Currency" = "货币单位";
+"Common_PercentChange" = "涨跌周期";
+"Common_Wallet" = "钱包";
+"Common_Exchange" = "市场";
+"Common_MyWallet" = "我的钱包";
+"Common_MyExchange" = "我的市场";
+"Common_Delete" = "删除";
+"Common_DeleteSuccess" = "删除成功";
+"Common_Save" = "保存";
+"Common_OneHour" = "1小时";
+"Common_TwentyFourHour" = "24小时";
+"Common_SevenDay" = "7天";
+"Common_Select" = "选择...";
+"Common_Search" = "搜索...";
+"Common_UnitPrice" = "单价";
+"Common_TotalPrice" = "总价";
+"Common_AuthTips" = "请验证您的身份";
+"Common_Cancel" = "取消";
+"Common_Confirm" = "确定";
+"Common_Feedback" = "意见反馈";
+// AssetsViewController
+"AssetsViewController_TitleLabel" = "我的资产";
+// ProjectsViewController
+"ProjectsViewController_TitleLabel" = "我的项目";
+// SettingsViewController
+"SettingsViewController_BasicSetting" = "基本设置";
+"SettingsViewController_SystemSetting" = "系统设置";
+"SettingsViewController_OtherSetting" = "其他设置";
+"SettingsViewController_MarketColor" = "红涨绿跌";
+"SettingsViewController_PriceUSD" = "显示美元价格";
+"SettingsViewController_SyncData" = "数据同步";
+"SettingsViewController_ShareMessage" = "MyCoin-最好的数字资产记账App";
+"SettingsViewController_FeedbackThanks" = "邮件发送成功，多谢老铁！";
+"SettingsViewController_SignInTips" = "登陆后可同步数据";
+// CollectionViewController
+"CollectionViewController_headerTitle" = "添加和整理显示在首页显示的资产";
+"CollectionViewController_NoDataTips" = "暂无关注数据，点击按钮搜索";
+"CollectionViewController_Existing" = "不能重复添加关注";
+"CollectionViewController_Contain" = "包括";
+"CollectionViewController_UnContain" = "不包括";
+// EditAssetViewController
+"EditAssetViewController_AddTitle" = "添加资产";
+"EditAssetViewController_EditTitle" = "编辑资产";
+"EditAssetViewController_Symbol" = "资产符号";
+"EditAssetViewController_Num" = "资产数量";
+"EditAssetViewController_Price" = "买入价格";
+"EditAssetViewController_WalletOrExchange" = "市场/钱包";
+"EditAssetViewController_BuyDate" = "买入日期";
+"EditAssetViewController_Remarks" = "备注|100字符以内";
+"EditAssetViewController_DeleteTips" = "确定要删除该条资产记录吗？";
+"EditAssetViewController_NumPlaceholder" = "请输入资产数量";
+// ViewAssetViewController
+"ViewAssetViewController_Title" = "查看资产";
+"ViewAssetViewController_SubTitle" = "减少资产";
+"ViewAssetViewController_SubMessage" = "请输入要减少的资产数量";
+"ViewAssetViewController_DeleteTips" = "此操作将删除关注和对应的资产记录!\n确定继续？";
+"ViewAssetViewController_DeleteRecordTips" = "确定要删除该条资产记录吗？";
+// EditProjectViewController
+"EditProjectViewController_AddTitle" = "添加项目";
+"EditProjectViewController_EditTitle" = "编辑项目";
+"EditProjectViewController_ProjecName" = "项目名称|20字符以内";
+"EditProjectViewController_WebSite" = "项目主页|20字符以内";
+"EditProjectViewController_Cost" = "成本|n1ETH = n2TOKEN";
+"EditProjectViewController_ProjectNamePlaceholder" = "请输入项目名称";
+"EditProjectViewController_WebsitPlaceholder" = "请输入项目主页";
+"EditProjectViewController_PossibleExchangePlaceholder" = "请输入目标交易所";
+"EditProjectViewController_TokenDate" = "发币日期";
+"EditProjectViewController_UnlockDate" = "解锁日期";
+"EditProjectViewController_PossibleExchange" = "目标交易所|20字符以内";
+"EditProjectViewController_BuyDate" = "买入日期";
+"EditProjectViewController_Remarks" = "备注|100字符以内";
+"EditProjectViewController_DeleteTips" = "确定要删除该条项目记录吗？";
+// SearchViewController
+"SearchViewController_NoResultTips" = "没有搜索到结果";
+"SearchViewController_SearchPlaceholder" = "请输入关键字搜索";
+// WalletViewController
+"WalletViewController_TipsTitle" = "暂无钱包数据，点击按钮新增";
+"WalletViewController_HotTitle" = "推荐钱包";
+// ExchangeController
+"ExchangeController_TipsTitle" = "暂无市场数据，点击按钮新增";
+"ExchangeController_HotTitle" = "推荐市场";
+// CurrencyViewController
+"CurrencyViewController_Current" = "当前";
+"CurrencyViewController_All" = "全部";
+// EditWalletViewController
+"EditWalletViewController_Name" = "钱包名称|10字符以内";
+"EditWalletViewController_Remarks" = "备注|100字符以内";
+"EditWalletViewController_AddTitle" = "添加钱包";
+"EditWalletViewController_EditTitle" = "编辑钱包";
+"EditWalletViewController_NamePlaceholder" = "请输入钱包名称";
+// EditExchangeViewController
+"EditExchangeViewController_Name" = "市场名称|10字符以内";
+"EditExchangeViewController_Remarks" = "备注|100字符以内";
+"EditExchangeViewController_AddTitle" = "添加市场";
+"EditExchangeViewController_EditTitle" = "编辑市场";
+"EditExchangeViewController_NamePlaceholder" = "请输入市场名称";
+// UserSignInViewController
+"UserSignInViewController_ErrorNamePasswordError" = "请输入正确的用户名或密码";
+"UserSignInViewController_RetryLater" = "尝试次数过多，请15分钟之后再试";
+// UserSignUpViewController
+"UserSignUpViewController_ErrorNameExisting" = "用户名已经被占用";
+"UserSignUpViewController_SignUpSuccess" = "注册成功，您可以登陆了";
+// AuthViewController
+"AuthViewController_FaceIDTips" = "点击进行面部验证";
+"AuthViewController_TouchIDTips" = "点击进行指纹验证";
+"AuthViewController_AuthFailRetry" = "身份验证失败，点击重试";
+"AuthViewController_AuthSuccess" = "身份验证成功";
+// ChartViewController
+"ChartViewController_Title" = "资产图表";
+"ChartViewController_SegmentedTitle1" = "金额图表";
+"ChartViewController_SegmentedTitle2" = "分布图表";
+"ChartViewController_Unknowns" = "未知";
+"ChartViewController_Others" = "其他";
+// FeedbackViewController
+"FeedbackViewController_TipsTitle" = "请输入您的建议或意见";
+"FeedbackViewController_Submit" = "提交";
+"FeedbackViewController_Thanks" = "意见反馈提交成功";
+"FeedbackViewController_Characters" = "20~800字符";
+// MessageViewController
+"MessageViewController_TitleLabel" = "我的消息";
+"MessageViewController_TipsTitle" = "暂无消息";
+// MessageDetailViewController
+"MessageDetailViewController_TitleLabel" = "消息详情";
+// PriceInputCell
+"PriceInputCell_Placeholder" = "请输入买入价格";
+"PriceInputCell_UnitPrice" = "单价";
+"PriceInputCell_TotalPrice" = "总价";
+// BuyRecordCell
+"BuyRecordCell_TotalPrice" = "买入总价";
+// ProjectCoinCell
+"ProjectCoinCell_InNumPlaceholder" = "投入代币数量";
+"ProjectCoinCell_OutNumPlaceholder" = "回报代币数量";
+"ProjectCoinCell_OutTokenPlaceholder" = "回报代币名称";
+// ViewCoinHeaderView
+"ViewCoinHeaderView_NowPrice" = "当前价格";
+"ViewCoinHeaderView_MarketCap" = "当前市值";
+"ViewCoinHeaderView_UpdateTime" = "更新时间";
+// AlertView
+"AlertView_Title" = "提示";
+// TipsView
+"TipsView_ButtonConfirm" = "去查看";
+"TipsView_ButtonCancel" = "知道了";

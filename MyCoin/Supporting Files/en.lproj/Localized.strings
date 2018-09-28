@@ -1,0 +1,168 @@
+/* 
+ Localized.strings
+ MyCoin
+ 
+ Created by GaoWanli on 2017/11/29.
+ Copyright © 2017年 wl. All rights reserved.
+ */
+
+// Common
+"Common_SyncDataTips" = "Sync Data..";
+"Common_SyncDataSuccess" = "Sync data success";
+"Common_SyncDataErrorRetry" = "Sync data failed, Retry?";
+"Common_SignIn" = "Sign in";
+"Common_SignUp" = "Sign up";
+"Common_FindPassword" = "iForgot";
+"Common_LogOut" = "Sign Out";
+"Common_LogOutTips" = "Are you sure you want to log out?";
+"Common_SyncDataErrorLogOut" = "Sync data failed, Still log out?";
+"Common_FaceID" = "Face ID";
+"Common_TouchID" = "Touch ID";
+"Common_ErrorRetry" = "A little mistake happened~\nTry to try again";
+"Common_CheckInput" = "Please check that all input items are correct";
+"Common_Assets" = "Assets";
+"Common_Projects" = "Projects";
+"Common_Settings" = "Settings";
+"Common_MyCollection" = "Collections";
+"Common_Currency" = "Currency";
+"Common_PercentChange" = "Change Cycle";
+"Common_Wallet" = "Wallet";
+"Common_Exchange" = "Exchange";
+"Common_MyWallet" = "Wallets";
+"Common_MyExchange" = "Exchanges";
+"Common_Delete" = "Delete";
+"Common_DeleteSuccess" = "Delete success";
+"Common_Save" = "Save";
+"Common_OneHour" = "1 Hour";
+"Common_TwentyFourHour" = "24 Hour";
+"Common_SevenDay" = "7 Day";
+"Common_Select" = "Choose...";
+"Common_Search" = "Search...";
+"Common_UnitPrice" = "Unit Price";
+"Common_TotalPrice" = "Total Price";
+"Common_AuthTips" = "Please verify your identity";
+"Common_Cancel" = "Cancel";
+"Common_Confirm" = "Confirm";
+"Common_Feedback" = "Feedback";
+// AssetsViewController
+"AssetsViewController_TitleLabel" = "Assets";
+// ProjectsViewController
+"ProjectsViewController_TitleLabel" = "Projects";
+// SettingsViewController
+"SettingsViewController_BasicSetting" = "Basic";
+"SettingsViewController_SystemSetting" = "General";
+"SettingsViewController_OtherSetting" = "Other";
+"SettingsViewController_MarketColor" = "Rise In Red Color";
+"SettingsViewController_PriceUSD" = "USD Price Comparison";
+"SettingsViewController_SyncData" = "Data Synchronization";
+"SettingsViewController_ShareMessage" = "Best coins accounting app";
+"SettingsViewController_FeedbackThanks" = "Email has been sent\nThank you very much!";
+"SettingsViewController_SignInTips" = "Sign in to synchronize the data";
+// CollectionViewController
+"CollectionViewController_headerTitle" = "Add and sort out the assets displayed on the home page";
+"CollectionViewController_NoDataTips" = "No collection data, Click on the button search";
+"CollectionViewController_Existing" = "Cannot add collection to repeat";
+"CollectionViewController_Contain" = "Include";
+"CollectionViewController_UnContain" = "Exclude";
+// EditAssetViewController
+"EditAssetViewController_AddTitle" = "Add Asset";
+"EditAssetViewController_EditTitle" = "Edit Asset";
+"EditAssetViewController_Symbol" = "Asset Symbol";
+"EditAssetViewController_Num" = "Asset Num";
+"EditAssetViewController_Price" = "Buy Price";
+"EditAssetViewController_WalletOrExchange" = "Exchange/Wallet";
+"EditAssetViewController_BuyDate" = "Buy Date";
+"EditAssetViewController_Remarks" = "Remarks|100 characters or less";
+"EditAssetViewController_DeleteTips" = "Are you sure you want to delete this asset record?";
+"EditAssetViewController_NumPlaceholder" = "Enter the num";
+// ViewAssetViewController
+"ViewAssetViewController_Title" = "View Asset";
+"ViewAssetViewController_SubTitle" = "Reduce Assets";
+"ViewAssetViewController_SubMessage" = "Please enter the num to be reduced";
+"ViewAssetViewController_DeleteTips" = "Delete collection and asset records!\nSure continue?";
+"ViewAssetViewController_DeleteRecordTips" = "Are you sure you want to delete this asset record?";
+// EditProjectViewController
+"EditProjectViewController_AddTitle" = "Add Project";
+"EditProjectViewController_EditTitle" = "Edit Project";
+"EditProjectViewController_ProjecName" = "Project Name|20 characters or less";
+"EditProjectViewController_WebSite" = "Website|20 characters or less";
+"EditProjectViewController_Cost" = "Token Cost|n1ETH = n2TOKEN";
+"EditProjectViewController_ProjectNamePlaceholder" = "Enter the name";
+"EditProjectViewController_WebsitPlaceholder" = "Enter the website";
+"EditProjectViewController_PossibleExchangePlaceholder" = "Enter the exchange";
+"EditProjectViewController_TokenDate" = "Token Receive Date";
+"EditProjectViewController_UnlockDate" = "Token Unlock Date";
+"EditProjectViewController_PossibleExchange" = "Possible Exchange|20 characters or less";
+"EditProjectViewController_BuyDate" = "Buy Date";
+"EditProjectViewController_Remarks" = "Remarks|100 characters or less";
+"EditProjectViewController_DeleteTips" = "Are you sure you want to delete this project record?";
+// SearchViewController
+"SearchViewController_NoResultTips" = "No results were found.";
+"SearchViewController_SearchPlaceholder" = "Enter the keyword to search";
+// WalletViewController
+"WalletViewController_TipsTitle" = "No wallet data, Click on the button add";
+"WalletViewController_HotTitle" = "Hot Wallets";
+// ExchangeController
+"ExchangeController_TipsTitle" = "No exchange data, Click on the button add";
+"ExchangeController_HotTitle" = "Hot Exchanges";
+// CurrencyViewController
+"CurrencyViewController_Current" = "Current";
+"CurrencyViewController_All" = "All";
+// EditWalletViewController
+"EditWalletViewController_Name" = "Wallet Name|10 characters or less";
+"EditWalletViewController_Remarks" = "Remarks|100 characters or less";
+"EditWalletViewController_AddTitle" = "Add Wallet";
+"EditWalletViewController_EditTitle" = "Edit Wallet";
+"EditWalletViewController_NamePlaceholder" = "Enter the name";
+// EditExchangeViewController
+"EditExchangeViewController_Name" = "Exchange Name|10 characters or less";
+"EditExchangeViewController_Remarks" = "Remarks|100 characters or less";
+"EditExchangeViewController_AddTitle" = "Add Exchange";
+"EditExchangeViewController_EditTitle" = "Eidt Exchange";
+"EditExchangeViewController_NamePlaceholder" = "Enter the name";
+// UserSignInViewController
+"UserSignInViewController_ErrorNamePasswordError" = "Username or password do not match";
+"UserSignInViewController_RetryLater" = "Sorry!Please try again in 15 minutes!";
+// UserSignUpViewController
+"UserSignUpViewController_ErrorNameExisting" = "The username has already existed";
+"UserSignUpViewController_SignUpSuccess" = "Success!You can login";
+// AuthViewController
+"AuthViewController_FaceIDTips" = "Click for face verification";
+"AuthViewController_TouchIDTips" = "Click to fingerprint verification";
+"AuthViewController_AuthFailRetry" = "Failed authentication, Click on Retry!";
+"AuthViewController_AuthSuccess" = "Verification succeess";
+// ChartViewController
+"ChartViewController_Title" = "Assets Chart";
+"ChartViewController_SegmentedTitle1" = "Balances";
+"ChartViewController_SegmentedTitle2" = "Storage";
+"ChartViewController_Unknowns" = "Unknowns";
+"ChartViewController_Others" = "Others";
+// FeedbackViewController
+"FeedbackViewController_TipsTitle" = "Use the form below to send us your comments";
+"FeedbackViewController_Submit" = "Submit";
+"FeedbackViewController_Thanks" = "Thanks for your feedback";
+"FeedbackViewController_Characters" = "20 to 800 characters";
+// MessageViewController
+"MessageViewController_TitleLabel" = "Message";
+"MessageViewController_TipsTitle" = "No message data";
+// MessageDetailViewController
+"MessageDetailViewController_TitleLabel" = "Message Detail";
+// PriceInputCell
+"PriceInputCell_Placeholder" = "Enter buy price";
+"PriceInputCell_UnitPrice" = "One";
+"PriceInputCell_TotalPrice" = "All";
+// BuyRecordCell
+"BuyRecordCell_BuyDate" = "Buy Date";
+// ProjectCoinCell
+"ProjectCoinCell_InNumPlaceholder" = "Deposit Amount";
+"ProjectCoinCell_OutNumPlaceholder" = "Changed Token Amount";
+"ProjectCoinCell_OutTokenPlaceholder" = "Changed Token Name";
+// ViewCoinHeaderView
+"ViewCoinHeaderView_NowPrice" = "Price";
+"ViewCoinHeaderView_MarketCap" = "Market Cap";
+"ViewCoinHeaderView_UpdateTime" = "Update Time";
+// AlertView
+"AlertView_Title" = "Tips";
+// TipsView
+"TipsView_ButtonConfirm" = "Detail";
+"TipsView_ButtonCancel" = "Ok";

@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8502EF181FEB937300BD0421 /* ChartStorageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8502EF161FEB937300BD0421 /* ChartStorageCell.swift */; };
+		8502EF191FEB937300BD0421 /* ChartStorageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8502EF171FEB937300BD0421 /* ChartStorageCell.xib */; };
+		850326191F99D3D10062F91A /* Entities.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 850326171F99D3D10062F91A /* Entities.xcdatamodeld */; };
+		850400FD1FDAA061006E76B4 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850400FC1FDAA061006E76B4 /* TipsView.swift */; };
+		850400FF1FDAA067006E76B4 /* TipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850400FE1FDAA067006E76B4 /* TipsView.xib */; };
+		8507A5631FCEA0B500E774AB /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507A5621FCEA0B500E774AB /* Language.swift */; };
+		8507A5651FCEA31E00E774AB /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507A5641FCEA31E00E774AB /* Localizations.swift */; };
+		8507A56C1FCEA7FB00E774AB /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8507A56E1FCEA7FB00E774AB /* Localized.strings */; };
+		8526FAE71FCEAA3C008D9648 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8526FAE61FCEAA3C008D9648 /* NSObject.swift */; };
+		8539ED6E2018857E00237133 /* PushMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8539ED6D2018857E00237133 /* PushMessageViewController.swift */; };
+		853B8B55203138E800B43C20 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B8B54203138E800B43C20 /* SettingsViewController.swift */; };
+		853C79BF202045500012EAAB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853C79BE202045500012EAAB /* GradientView.swift */; };
+		853EF8E8200F4832005F8FB7 /* MessageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853EF8E7200F4832005F8FB7 /* MessageDetailViewController.swift */; };
+		853FE8F81FA2C92C00E97AC2 /* Coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FE8F71FA2C92C00E97AC2 /* Coins.swift */; };
+		853FE8FC1FA2DCAC00E97AC2 /* AppDelegate+documents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FE8FB1FA2DCAC00E97AC2 /* AppDelegate+documents.swift */; };
+		8542230A1FDFB229006D5B66 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854223091FDFB229006D5B66 /* FeedbackViewController.swift */; };
+		854C0FEC1FA71870003B1A7A /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854C0FEB1FA71870003B1A7A /* CurrencyViewController.swift */; };
+		854C0FEE1FA718CB003B1A7A /* UIStoryboard+myCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854C0FED1FA718CB003B1A7A /* UIStoryboard+myCoin.swift */; };
+		854F98BD1F97015C0032F28D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856923711F96FF9D00511C90 /* LaunchScreen.storyboard */; };
+		854F98C01F97016D0032F28D /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923551F96FEFB00511C90 /* UIScrollView.swift */; };
+		854F98C11F97016D0032F28D /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923561F96FEFB00511C90 /* Print.swift */; };
+		854F98C21F97016D0032F28D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923571F96FEFB00511C90 /* UIView.swift */; };
+		854F98C31F97016D0032F28D /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923581F96FEFB00511C90 /* GCD.swift */; };
+		854F98C41F97016D0032F28D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923591F96FEFB00511C90 /* UIColor.swift */; };
+		854F98C51F97016D0032F28D /* Notification+myCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569235A1F96FEFB00511C90 /* Notification+myCoin.swift */; };
+		854F98C61F97016D0032F28D /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569235B1F96FEFB00511C90 /* UserDefaults.swift */; };
+		854F98C71F97016D0032F28D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8569235C1F96FEFB00511C90 /* UIImage.swift */; };
+		854F98CD1F97016D0032F28D /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923621F96FEFB00511C90 /* UIStoryboard.swift */; };
+		854F98CF1F9701720032F28D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923511F96FEFB00511C90 /* Constant.swift */; };
+		854F98D01F9701720032F28D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923521F96FEFB00511C90 /* Config.swift */; };
+		854F98D21F9701720032F28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856923651F96FEFB00511C90 /* AppDelegate.swift */; };
+		855F56E52028433D00DAC76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855F56E42028433D00DAC76B /* Main.storyboard */; };
+		855F56E72028480F00DAC76B /* UIFont+myCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F56E62028480F00DAC76B /* UIFont+myCoin.swift */; };
+		855F56E92028563200DAC76B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F56E82028563200DAC76B /* NavigationController.swift */; };
+		85605C8F1FB2E60C0013FDA5 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85605C8E1FB2E60B0013FDA5 /* WalletViewController.swift */; };
+		85619D4B1FC27D76002841DA /* Coins.plist in Resources */ = {isa = PBXBuildFile; fileRef = 859221BF1FBD3C1100FF12A7 /* Coins.plist */; };
+		856333781FC7F23D0031BF38 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856333771FC7F23D0031BF38 /* UIViewController.swift */; };
+		8566FA1E1FBEE8F000D51C27 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8566FA1D1FBEE8F000D51C27 /* Date.swift */; };
+		856936F920294A0E0094A56A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856936F820294A0E0094A56A /* TabBarController.swift */; };
+		856936FB20294A210094A56A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856936FA20294A210094A56A /* TabBar.swift */; };
+		856936FD20294AB40094A56A /* DHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856936FC20294AB30094A56A /* DHButton.swift */; };
+		856BFA641FBED70600C1010E /* LeanCloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856BFA631FBED70600C1010E /* LeanCloudManager.swift */; };
+		856E84751FAEB48F0044D903 /* AppDelegate+settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856E84741FAEB48F0044D903 /* AppDelegate+settings.swift */; };
+		8573EB272005B2BC00068F1B /* InputAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8573EB262005B2BC00068F1B /* InputAlertView.swift */; };
+		8573EB292005B2C700068F1B /* InputAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8573EB282005B2C700068F1B /* InputAlertView.xib */; };
+		8574453D1FCE55BB007176E4 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574453C1FCE55BB007176E4 /* AuthViewController.swift */; };
+		857446671FBEBBF8001219CF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857446661FBEBBF8001219CF /* DataManager.swift */; };
+		8574C63A2021A7550045D952 /* CoinsHeaderBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8574C6392021A7550045D952 /* CoinsHeaderBgView.swift */; };
+		8577EE351FAEF5BC0091489A /* UIColor+myCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577EE341FAEF5BC0091489A /* UIColor+myCoin.swift */; };
+		8579892F1FB15F66004C810F /* ExchangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579892E1FB15F66004C810F /* ExchangeController.swift */; };
+		857989331FB16351004C810F /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857989321FB16351004C810F /* Entities.swift */; };
+		857B89AC1FBD95580098A166 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B89AB1FBD95580098A166 /* LoadingView.swift */; };
+		857B89AE1FBD95630098A166 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857B89AD1FBD95630098A166 /* LoadingView.xib */; };
+		857CBF2F1FAF3F9E00960A7C /* DateInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CBF2D1FAF3F9E00960A7C /* DateInputCell.swift */; };
+		857CBF301FAF3F9E00960A7C /* DateInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857CBF2E1FAF3F9E00960A7C /* DateInputCell.xib */; };
+		857EA6EB1FAF348500DCC4F2 /* PercentChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA6EA1FAF348500DCC4F2 /* PercentChangeViewController.swift */; };
+		8581662B1FAC63C100F8D434 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581662A1FAC63C100F8D434 /* String.swift */; };
+		8582ABF21FC91FC8007003E5 /* CollectionCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582ABF11FC91FC8007003E5 /* CollectionCoin.swift */; };
+		8587AEDF20298CAD000FABDB /* AssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587AEDE20298CAD000FABDB /* AssetsViewController.swift */; };
+		859631541FB93A4D0017B69F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859631531FB93A4D0017B69F /* AlertView.swift */; };
+		859631561FB93A550017B69F /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859631551FB93A550017B69F /* AlertView.xib */; };
+		85988944202FE6E9000F2B7D /* AppDelegate+rootWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85988943202FE6E9000F2B7D /* AppDelegate+rootWindow.swift */; };
+		859896A31FA6C2A80079E525 /* UserDefaults+myCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859896A21FA6C2A80079E525 /* UserDefaults+myCoin.swift */; };
+		859896AD1FA700DD0079E525 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859896AC1FA700DD0079E525 /* UIDevice.swift */; };
+		859896AF1FA7082E0079E525 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859896AE1FA7082E0079E525 /* CollectionViewController.swift */; };
+		859896BA1FA70BA60079E525 /* CoinInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859896B81FA70BA60079E525 /* CoinInfoCell.swift */; };
+		859896BB1FA70BA60079E525 /* CoinInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859896B91FA70BA60079E525 /* CoinInfoCell.xib */; };
+		859F8A001FAF017800430F1B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F89FF1FAF017800430F1B /* Double.swift */; };
+		859F8A031FAF073B00430F1B /* PriceInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F8A011FAF073B00430F1B /* PriceInputCell.swift */; };
+		859F8A041FAF073B00430F1B /* PriceInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859F8A021FAF073B00430F1B /* PriceInputCell.xib */; };
+		859F8A061FAF109E00430F1B /* Appdelegate+defalutSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F8A051FAF109E00430F1B /* Appdelegate+defalutSettings.swift */; };
+		85A1778E1FD14879008BD0CC /* CoinCachePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A1778D1FD14879008BD0CC /* CoinCachePrice.swift */; };
+		85A198D01FCA7A1A0021A1CC /* BuyRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A198CE1FCA7A1A0021A1CC /* BuyRecordCell.swift */; };
+		85A198D11FCA7A1A0021A1CC /* BuyRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A198CF1FCA7A1A0021A1CC /* BuyRecordCell.xib */; };
+		85AAFF091FB449C5009A3C79 /* CoinPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAFF081FB449C5009A3C79 /* CoinPrice.swift */; };
+		85AAFF0B1FB44BDE009A3C79 /* ViewAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAFF0A1FB44BDE009A3C79 /* ViewAssetViewController.swift */; };
+		85ACBF711FC539BF0055DF1C /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ACBF701FC539BF0055DF1C /* ErrorManager.swift */; };
+		85B19F8E20303ABD003D350B /* UserSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B19F8D20303ABD003D350B /* UserSignUpViewController.swift */; };
+		85B3B24B1FA82168009C36CB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3B24A1FA82168009C36CB /* SearchViewController.swift */; };
+		85B5A95A203EB8150031E3DE /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B5A94E203EB8150031E3DE /* ItemCell.xib */; };
+		85B5A95B203EB8150031E3DE /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A94F203EB8150031E3DE /* ItemCell.swift */; };
+		85B5A95C203EB8150031E3DE /* MessageItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A950203EB8150031E3DE /* MessageItemCell.swift */; };
+		85B5A95D203EB8150031E3DE /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B5A951203EB8150031E3DE /* SwitchCell.xib */; };
+		85B5A95E203EB8150031E3DE /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A952203EB8150031E3DE /* TextFieldCell.swift */; };
+		85B5A95F203EB8150031E3DE /* GroupHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B5A953203EB8150031E3DE /* GroupHeaderView.xib */; };
+		85B5A960203EB8150031E3DE /* MessageItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B5A954203EB8150031E3DE /* MessageItemCell.xib */; };
+		85B5A961203EB8150031E3DE /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A955203EB8150031E3DE /* TextViewCell.swift */; };
+		85B5A962203EB8150031E3DE /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B5A956203EB8150031E3DE /* TextFieldCell.xib */; };
+		85B5A963203EB8150031E3DE /* TextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B5A957203EB8150031E3DE /* TextViewCell.xib */; };
+		85B5A964203EB8150031E3DE /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A958203EB8150031E3DE /* SwitchCell.swift */; };
+		85B5A965203EB8150031E3DE /* GroupHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A959203EB8150031E3DE /* GroupHeaderView.swift */; };
+		85B5A968203EBEFD0031E3DE /* ProjectCoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5A966203EBEFD0031E3DE /* ProjectCoinCell.swift */; };
+		85B5A969203EBEFD0031E3DE /* ProjectCoinCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B5A967203EBEFD0031E3DE /* ProjectCoinCell.xib */; };
+		85BD3EF21FB00671009958B3 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD3EF11FB00671009958B3 /* UITextField.swift */; };
+		85BD3EF51FB0528C009958B3 /* CoinResideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BD3EF31FB0528C009958B3 /* CoinResideCell.swift */; };
+		85BD3EF61FB0528C009958B3 /* CoinResideCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85BD3EF41FB0528C009958B3 /* CoinResideCell.xib */; };
+		85C223141FAEE8AA00A56F4B /* EditAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C223131FAEE8AA00A56F4B /* EditAssetViewController.swift */; };
+		85C223171FAEF19F00A56F4B /* CoinTagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C223151FAEF19F00A56F4B /* CoinTagCell.swift */; };
+		85C223181FAEF19F00A56F4B /* CoinTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C223161FAEF19F00A56F4B /* CoinTagCell.xib */; };
+		85C718581F97022900E6D46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C718571F97022900E6D46C /* Assets.xcassets */; };
+		85C982751FECB28900AD74FA /* ChartBalancesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C982731FECB28900AD74FA /* ChartBalancesCell.swift */; };
+		85C982761FECB28900AD74FA /* ChartBalancesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C982741FECB28900AD74FA /* ChartBalancesCell.xib */; };
+		85CF5D1D1FDE3565000C7C10 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CF5D1C1FDE3565000C7C10 /* ChartViewController.swift */; };
+		85D1508F2011E0080094AE34 /* AnalysisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D1508E2011E0080094AE34 /* AnalysisManager.swift */; };
+		85D5E8701FB441EA003CEB8D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D5E86F1FB441EA003CEB8D /* NetworkManager.swift */; };
+		85D9B3B11FB075D10025A078 /* EditWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D9B3B01FB075D10025A078 /* EditWalletViewController.swift */; };
+		85D9B3B31FB076140025A078 /* EditExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D9B3B21FB076140025A078 /* EditExchangeViewController.swift */; };
+		85DF413A1FCA538A004E6600 /* ViewCoinHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DF41391FCA538A004E6600 /* ViewCoinHeaderView.swift */; };
+		85E1CE911FBD895300CD5C32 /* UserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E1CE901FBD895300CD5C32 /* UserSignInViewController.swift */; };
+		85E4F021200F296200343B56 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E4F020200F296200343B56 /* MessageViewController.swift */; };
+		85F23F571FC15A6B0098EFFE /* AssetItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F23F551FC15A6B0098EFFE /* AssetItemCell.swift */; };
+		85F23F581FC15A6B0098EFFE /* AssetItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F23F561FC15A6B0098EFFE /* AssetItemCell.xib */; };
+		85F951E61FC55E2800AD5505 /* DataManager+restore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F951E51FC55E2800AD5505 /* DataManager+restore.swift */; };
+		85F951E81FC55E5800AD5505 /* DataManager+sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F951E71FC55E5800AD5505 /* DataManager+sync.swift */; };
+		879CA2086734F47EC1780796 /* Pods_MyCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CE4C011FB06F0B001A0DAC /* Pods_MyCoin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45BC49BBC67C420C0023CABD /* Pods-MyCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCoin/Pods-MyCoin.release.xcconfig"; sourceTree = "<group>"; };
+		81712233C116B07FE7238CE4 /* Pods-MyCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCoin/Pods-MyCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		8502EF161FEB937300BD0421 /* ChartStorageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStorageCell.swift; sourceTree = "<group>"; };
+		8502EF171FEB937300BD0421 /* ChartStorageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartStorageCell.xib; sourceTree = "<group>"; };
+		850326181F99D3D10062F91A /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		850400FC1FDAA061006E76B4 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		850400FE1FDAA067006E76B4 /* TipsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TipsView.xib; sourceTree = "<group>"; };
+		8507A5621FCEA0B500E774AB /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		8507A5641FCEA31E00E774AB /* Localizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
+		8507A56D1FCEA7FB00E774AB /* en */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = en; path = en.lproj/Localized.strings; sourceTree = "<group>"; };
+		8507A56F1FCEA7FC00E774AB /* zh */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = zh; path = zh.lproj/Localized.strings; sourceTree = "<group>"; };
+		8526FAE61FCEAA3C008D9648 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		8539ED6D2018857E00237133 /* PushMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushMessageViewController.swift; sourceTree = "<group>"; };
+		853B8B54203138E800B43C20 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		853C79BE202045500012EAAB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		853EF8E7200F4832005F8FB7 /* MessageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailViewController.swift; sourceTree = "<group>"; };
+		853FE8F71FA2C92C00E97AC2 /* Coins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coins.swift; sourceTree = "<group>"; };
+		853FE8FB1FA2DCAC00E97AC2 /* AppDelegate+documents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+documents.swift"; sourceTree = "<group>"; };
+		854223091FDFB229006D5B66 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		854C0FEB1FA71870003B1A7A /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		854C0FED1FA718CB003B1A7A /* UIStoryboard+myCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+myCoin.swift"; sourceTree = "<group>"; };
+		855F56E42028433D00DAC76B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		855F56E62028480F00DAC76B /* UIFont+myCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+myCoin.swift"; sourceTree = "<group>"; };
+		855F56E82028563200DAC76B /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		85605C8E1FB2E60B0013FDA5 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		856333771FC7F23D0031BF38 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8566FA1D1FBEE8F000D51C27 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		856923511F96FEFB00511C90 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		856923521F96FEFB00511C90 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		856923551F96FEFB00511C90 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		856923561F96FEFB00511C90 /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		856923571F96FEFB00511C90 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		856923581F96FEFB00511C90 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		856923591F96FEFB00511C90 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8569235A1F96FEFB00511C90 /* Notification+myCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+myCoin.swift"; sourceTree = "<group>"; };
+		8569235B1F96FEFB00511C90 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		8569235C1F96FEFB00511C90 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		856923621F96FEFB00511C90 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		856923651F96FEFB00511C90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8569236D1F96FF5700511C90 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856923721F96FF9D00511C90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		856936F820294A0E0094A56A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		856936FA20294A210094A56A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		856936FC20294AB30094A56A /* DHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHButton.swift; sourceTree = "<group>"; };
+		856BFA631FBED70600C1010E /* LeanCloudManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCloudManager.swift; sourceTree = "<group>"; };
+		856E84741FAEB48F0044D903 /* AppDelegate+settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+settings.swift"; sourceTree = "<group>"; };
+		8573EB262005B2BC00068F1B /* InputAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAlertView.swift; sourceTree = "<group>"; };
+		8573EB282005B2C700068F1B /* InputAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputAlertView.xib; sourceTree = "<group>"; };
+		8574453C1FCE55BB007176E4 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		857446661FBEBBF8001219CF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8574C6392021A7550045D952 /* CoinsHeaderBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsHeaderBgView.swift; sourceTree = "<group>"; };
+		8577EE341FAEF5BC0091489A /* UIColor+myCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+myCoin.swift"; sourceTree = "<group>"; };
+		8579892E1FB15F66004C810F /* ExchangeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeController.swift; sourceTree = "<group>"; };
+		857989321FB16351004C810F /* Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+		857B89AB1FBD95580098A166 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		857B89AD1FBD95630098A166 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		857CBF2D1FAF3F9E00960A7C /* DateInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputCell.swift; sourceTree = "<group>"; };
+		857CBF2E1FAF3F9E00960A7C /* DateInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateInputCell.xib; sourceTree = "<group>"; };
+		857EA6EA1FAF348500DCC4F2 /* PercentChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeViewController.swift; sourceTree = "<group>"; };
+		8581662A1FAC63C100F8D434 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		8582ABF11FC91FC8007003E5 /* CollectionCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCoin.swift; sourceTree = "<group>"; };
+		8587AEDE20298CAD000FABDB /* AssetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsViewController.swift; sourceTree = "<group>"; };
+		858D5F691F95F29F00C0264E /* MyCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		859221BF1FBD3C1100FF12A7 /* Coins.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Coins.plist; sourceTree = "<group>"; };
+		859631531FB93A4D0017B69F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		859631551FB93A550017B69F /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		85988943202FE6E9000F2B7D /* AppDelegate+rootWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+rootWindow.swift"; sourceTree = "<group>"; };
+		859896A21FA6C2A80079E525 /* UserDefaults+myCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+myCoin.swift"; sourceTree = "<group>"; };
+		859896AC1FA700DD0079E525 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		859896AE1FA7082E0079E525 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		859896B81FA70BA60079E525 /* CoinInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinInfoCell.swift; sourceTree = "<group>"; };
+		859896B91FA70BA60079E525 /* CoinInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinInfoCell.xib; sourceTree = "<group>"; };
+		859F89FF1FAF017800430F1B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		859F8A011FAF073B00430F1B /* PriceInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInputCell.swift; sourceTree = "<group>"; };
+		859F8A021FAF073B00430F1B /* PriceInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceInputCell.xib; sourceTree = "<group>"; };
+		859F8A051FAF109E00430F1B /* Appdelegate+defalutSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Appdelegate+defalutSettings.swift"; sourceTree = "<group>"; };
+		85A1778D1FD14879008BD0CC /* CoinCachePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCachePrice.swift; sourceTree = "<group>"; };
+		85A198CE1FCA7A1A0021A1CC /* BuyRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyRecordCell.swift; sourceTree = "<group>"; };
+		85A198CF1FCA7A1A0021A1CC /* BuyRecordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyRecordCell.xib; sourceTree = "<group>"; };
+		85AAFF081FB449C5009A3C79 /* CoinPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPrice.swift; sourceTree = "<group>"; };
+		85AAFF0A1FB44BDE009A3C79 /* ViewAssetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssetViewController.swift; sourceTree = "<group>"; };
+		85ACBF701FC539BF0055DF1C /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		85B19F8D20303ABD003D350B /* UserSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUpViewController.swift; sourceTree = "<group>"; };
+		85B3B24A1FA82168009C36CB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		85B5A94E203EB8150031E3DE /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		85B5A94F203EB8150031E3DE /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		85B5A950203EB8150031E3DE /* MessageItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageItemCell.swift; sourceTree = "<group>"; };
+		85B5A951203EB8150031E3DE /* SwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		85B5A952203EB8150031E3DE /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		85B5A953203EB8150031E3DE /* GroupHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupHeaderView.xib; sourceTree = "<group>"; };
+		85B5A954203EB8150031E3DE /* MessageItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageItemCell.xib; sourceTree = "<group>"; };
+		85B5A955203EB8150031E3DE /* TextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		85B5A956203EB8150031E3DE /* TextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		85B5A957203EB8150031E3DE /* TextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewCell.xib; sourceTree = "<group>"; };
+		85B5A958203EB8150031E3DE /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		85B5A959203EB8150031E3DE /* GroupHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupHeaderView.swift; sourceTree = "<group>"; };
+		85B5A966203EBEFD0031E3DE /* ProjectCoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCoinCell.swift; sourceTree = "<group>"; };
+		85B5A967203EBEFD0031E3DE /* ProjectCoinCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectCoinCell.xib; sourceTree = "<group>"; };
+		85BD3EF11FB00671009958B3 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		85BD3EF31FB0528C009958B3 /* CoinResideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinResideCell.swift; sourceTree = "<group>"; };
+		85BD3EF41FB0528C009958B3 /* CoinResideCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinResideCell.xib; sourceTree = "<group>"; };
+		85C223131FAEE8AA00A56F4B /* EditAssetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAssetViewController.swift; sourceTree = "<group>"; };
+		85C223151FAEF19F00A56F4B /* CoinTagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTagCell.swift; sourceTree = "<group>"; };
+		85C223161FAEF19F00A56F4B /* CoinTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTagCell.xib; sourceTree = "<group>"; };
+		85C718571F97022900E6D46C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85C982731FECB28900AD74FA /* ChartBalancesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBalancesCell.swift; sourceTree = "<group>"; };
+		85C982741FECB28900AD74FA /* ChartBalancesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartBalancesCell.xib; sourceTree = "<group>"; };
+		85CE4BFF1FB06EF5001A0DAC /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CE4C011FB06F0B001A0DAC /* Pods_MyCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MyCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CE4C031FB06F1B001A0DAC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CE4C051FB06F1E001A0DAC /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CF5D1C1FDE3565000C7C10 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		85D1508E2011E0080094AE34 /* AnalysisManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisManager.swift; sourceTree = "<group>"; };
+		85D5E86F1FB441EA003CEB8D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		85D9B3B01FB075D10025A078 /* EditWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWalletViewController.swift; sourceTree = "<group>"; };
+		85D9B3B21FB076140025A078 /* EditExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExchangeViewController.swift; sourceTree = "<group>"; };
+		85DF41391FCA538A004E6600 /* ViewCoinHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCoinHeaderView.swift; sourceTree = "<group>"; };
+		85E1CE901FBD895300CD5C32 /* UserSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignInViewController.swift; sourceTree = "<group>"; };
+		85E4F020200F296200343B56 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		85F23F551FC15A6B0098EFFE /* AssetItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetItemCell.swift; sourceTree = "<group>"; };
+		85F23F561FC15A6B0098EFFE /* AssetItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssetItemCell.xib; sourceTree = "<group>"; };
+		85F951E51FC55E2800AD5505 /* DataManager+restore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataManager+restore.swift"; sourceTree = "<group>"; };
+		85F951E71FC55E5800AD5505 /* DataManager+sync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataManager+sync.swift"; sourceTree = "<group>"; };
+		9F774BC0BC0E00D26BFEB316 /* Pods_MyCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858D5F661F95F29F00C0264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879CA2086734F47EC1780796 /* Pods_MyCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6072096FE808FAAEB6AD5B52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81712233C116B07FE7238CE4 /* Pods-MyCoin.debug.xcconfig */,
+				45BC49BBC67C420C0023CABD /* Pods-MyCoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8569234B1F96FE9500511C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C718571F97022900E6D46C /* Assets.xcassets */,
+				8507A56E1FCEA7FB00E774AB /* Localized.strings */,
+				850326171F99D3D10062F91A /* Entities.xcdatamodeld */,
+				859221BF1FBD3C1100FF12A7 /* Coins.plist */,
+				8569236D1F96FF5700511C90 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8569234D1F96FEFB00511C90 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8569234E1F96FEFB00511C90 /* Models */,
+				8569234F1F96FEFB00511C90 /* Utilities */,
+				856923661F96FEFB00511C90 /* ViewControllers */,
+				856923671F96FEFB00511C90 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8569234E1F96FEFB00511C90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				853FE8F71FA2C92C00E97AC2 /* Coins.swift */,
+				85AAFF081FB449C5009A3C79 /* CoinPrice.swift */,
+				8582ABF11FC91FC8007003E5 /* CollectionCoin.swift */,
+				85A1778D1FD14879008BD0CC /* CoinCachePrice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8569234F1F96FEFB00511C90 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				856923501F96FEFB00511C90 /* AppConfigs */,
+				856923541F96FEFB00511C90 /* Extensions */,
+				856923641F96FEFB00511C90 /* AppDelegates */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		856923501F96FEFB00511C90 /* AppConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				85D5E86F1FB441EA003CEB8D /* NetworkManager.swift */,
+				857446661FBEBBF8001219CF /* DataManager.swift */,
+				85F951E71FC55E5800AD5505 /* DataManager+sync.swift */,
+				85F951E51FC55E2800AD5505 /* DataManager+restore.swift */,
+				856923511F96FEFB00511C90 /* Constant.swift */,
+				856923521F96FEFB00511C90 /* Config.swift */,
+				857989321FB16351004C810F /* Entities.swift */,
+				856BFA631FBED70600C1010E /* LeanCloudManager.swift */,
+				85ACBF701FC539BF0055DF1C /* ErrorManager.swift */,
+				8507A5621FCEA0B500E774AB /* Language.swift */,
+				8507A5641FCEA31E00E774AB /* Localizations.swift */,
+				85D1508E2011E0080094AE34 /* AnalysisManager.swift */,
+			);
+			path = AppConfigs;
+			sourceTree = "<group>";
+		};
+		856923541F96FEFB00511C90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				856333771FC7F23D0031BF38 /* UIViewController.swift */,
+				856923551F96FEFB00511C90 /* UIScrollView.swift */,
+				856923561F96FEFB00511C90 /* Print.swift */,
+				856923571F96FEFB00511C90 /* UIView.swift */,
+				856923581F96FEFB00511C90 /* GCD.swift */,
+				856923591F96FEFB00511C90 /* UIColor.swift */,
+				8577EE341FAEF5BC0091489A /* UIColor+myCoin.swift */,
+				8569235A1F96FEFB00511C90 /* Notification+myCoin.swift */,
+				8569235B1F96FEFB00511C90 /* UserDefaults.swift */,
+				859896A21FA6C2A80079E525 /* UserDefaults+myCoin.swift */,
+				8569235C1F96FEFB00511C90 /* UIImage.swift */,
+				856923621F96FEFB00511C90 /* UIStoryboard.swift */,
+				854C0FED1FA718CB003B1A7A /* UIStoryboard+myCoin.swift */,
+				859896AC1FA700DD0079E525 /* UIDevice.swift */,
+				8581662A1FAC63C100F8D434 /* String.swift */,
+				859F89FF1FAF017800430F1B /* Double.swift */,
+				85BD3EF11FB00671009958B3 /* UITextField.swift */,
+				8566FA1D1FBEE8F000D51C27 /* Date.swift */,
+				8526FAE61FCEAA3C008D9648 /* NSObject.swift */,
+				855F56E62028480F00DAC76B /* UIFont+myCoin.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		856923641F96FEFB00511C90 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				856923651F96FEFB00511C90 /* AppDelegate.swift */,
+				853FE8FB1FA2DCAC00E97AC2 /* AppDelegate+documents.swift */,
+				856E84741FAEB48F0044D903 /* AppDelegate+settings.swift */,
+				859F8A051FAF109E00430F1B /* Appdelegate+defalutSettings.swift */,
+				85988943202FE6E9000F2B7D /* AppDelegate+rootWindow.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		856923661F96FEFB00511C90 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8585B6E6203EB631008DD330 /* Assets */,
+				8585B6E8203EB66A008DD330 /* Settings */,
+				8585B6EA203EB693008DD330 /* Others */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		856923671F96FEFB00511C90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8573EB252005B22C00068F1B /* UniversalViews */,
+				8573EB242005B1B200068F1B /* AppCells */,
+				8573EB232005B1A900068F1B /* AppViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8573EB232005B1A900068F1B /* AppViews */ = {
+			isa = PBXGroup;
+			children = (
+				8574C6392021A7550045D952 /* CoinsHeaderBgView.swift */,
+				85DF41391FCA538A004E6600 /* ViewCoinHeaderView.swift */,
+				856923711F96FF9D00511C90 /* LaunchScreen.storyboard */,
+				855F56E42028433D00DAC76B /* Main.storyboard */,
+			);
+			path = AppViews;
+			sourceTree = "<group>";
+		};
+		8573EB242005B1B200068F1B /* AppCells */ = {
+			isa = PBXGroup;
+			children = (
+				85B5A94D203EB8150031E3DE /* Others */,
+				859A65DD203EB73D00017D34 /* Assets */,
+				859A65DE203EB77F00017D34 /* Projects */,
+			);
+			path = AppCells;
+			sourceTree = "<group>";
+		};
+		8573EB252005B22C00068F1B /* UniversalViews */ = {
+			isa = PBXGroup;
+			children = (
+				856936FA20294A210094A56A /* TabBar.swift */,
+				856936FC20294AB30094A56A /* DHButton.swift */,
+				859631531FB93A4D0017B69F /* AlertView.swift */,
+				859631551FB93A550017B69F /* AlertView.xib */,
+				857B89AB1FBD95580098A166 /* LoadingView.swift */,
+				857B89AD1FBD95630098A166 /* LoadingView.xib */,
+				850400FC1FDAA061006E76B4 /* TipsView.swift */,
+				850400FE1FDAA067006E76B4 /* TipsView.xib */,
+				8573EB262005B2BC00068F1B /* InputAlertView.swift */,
+				8573EB282005B2C700068F1B /* InputAlertView.xib */,
+				853C79BE202045500012EAAB /* GradientView.swift */,
+			);
+			path = UniversalViews;
+			sourceTree = "<group>";
+		};
+		8585B6E6203EB631008DD330 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8587AEDE20298CAD000FABDB /* AssetsViewController.swift */,
+				85C223131FAEE8AA00A56F4B /* EditAssetViewController.swift */,
+				85AAFF0A1FB44BDE009A3C79 /* ViewAssetViewController.swift */,
+				85CF5D1C1FDE3565000C7C10 /* ChartViewController.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8585B6E8203EB66A008DD330 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				853B8B54203138E800B43C20 /* SettingsViewController.swift */,
+				859896AE1FA7082E0079E525 /* CollectionViewController.swift */,
+				854C0FEB1FA71870003B1A7A /* CurrencyViewController.swift */,
+				857EA6EA1FAF348500DCC4F2 /* PercentChangeViewController.swift */,
+				85605C8E1FB2E60B0013FDA5 /* WalletViewController.swift */,
+				85D9B3B01FB075D10025A078 /* EditWalletViewController.swift */,
+				8579892E1FB15F66004C810F /* ExchangeController.swift */,
+				85D9B3B21FB076140025A078 /* EditExchangeViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8585B6EA203EB693008DD330 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				855F56E82028563200DAC76B /* NavigationController.swift */,
+				856936F820294A0E0094A56A /* TabBarController.swift */,
+				85B3B24A1FA82168009C36CB /* SearchViewController.swift */,
+				85E1CE901FBD895300CD5C32 /* UserSignInViewController.swift */,
+				85B19F8D20303ABD003D350B /* UserSignUpViewController.swift */,
+				8574453C1FCE55BB007176E4 /* AuthViewController.swift */,
+				854223091FDFB229006D5B66 /* FeedbackViewController.swift */,
+				85E4F020200F296200343B56 /* MessageViewController.swift */,
+				853EF8E7200F4832005F8FB7 /* MessageDetailViewController.swift */,
+				8539ED6D2018857E00237133 /* PushMessageViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		858D5F601F95F29F00C0264E = {
+			isa = PBXGroup;
+			children = (
+				858D5F6B1F95F29F00C0264E /* MyCoin */,
+				858D5F6A1F95F29F00C0264E /* Products */,
+				6072096FE808FAAEB6AD5B52 /* Pods */,
+				9B89CCF899BD101DDE637FFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		858D5F6A1F95F29F00C0264E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858D5F691F95F29F00C0264E /* MyCoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858D5F6B1F95F29F00C0264E /* MyCoin */ = {
+			isa = PBXGroup;
+			children = (
+				8569234D1F96FEFB00511C90 /* Classes */,
+				8569234B1F96FE9500511C90 /* Supporting Files */,
+			);
+			path = MyCoin;
+			sourceTree = "<group>";
+		};
+		859A65DD203EB73D00017D34 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				85F23F551FC15A6B0098EFFE /* AssetItemCell.swift */,
+				85F23F561FC15A6B0098EFFE /* AssetItemCell.xib */,
+				859F8A011FAF073B00430F1B /* PriceInputCell.swift */,
+				859F8A021FAF073B00430F1B /* PriceInputCell.xib */,
+				85BD3EF31FB0528C009958B3 /* CoinResideCell.swift */,
+				85BD3EF41FB0528C009958B3 /* CoinResideCell.xib */,
+				85A198CE1FCA7A1A0021A1CC /* BuyRecordCell.swift */,
+				85A198CF1FCA7A1A0021A1CC /* BuyRecordCell.xib */,
+				8502EF161FEB937300BD0421 /* ChartStorageCell.swift */,
+				8502EF171FEB937300BD0421 /* ChartStorageCell.xib */,
+				85C982731FECB28900AD74FA /* ChartBalancesCell.swift */,
+				85C982741FECB28900AD74FA /* ChartBalancesCell.xib */,
+				85C223151FAEF19F00A56F4B /* CoinTagCell.swift */,
+				85C223161FAEF19F00A56F4B /* CoinTagCell.xib */,
+				859896B81FA70BA60079E525 /* CoinInfoCell.swift */,
+				859896B91FA70BA60079E525 /* CoinInfoCell.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		859A65DE203EB77F00017D34 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				85B5A966203EBEFD0031E3DE /* ProjectCoinCell.swift */,
+				85B5A967203EBEFD0031E3DE /* ProjectCoinCell.xib */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		85B5A94D203EB8150031E3DE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				85B5A94F203EB8150031E3DE /* ItemCell.swift */,
+				85B5A94E203EB8150031E3DE /* ItemCell.xib */,
+				85B5A958203EB8150031E3DE /* SwitchCell.swift */,
+				85B5A951203EB8150031E3DE /* SwitchCell.xib */,
+				85B5A952203EB8150031E3DE /* TextFieldCell.swift */,
+				85B5A956203EB8150031E3DE /* TextFieldCell.xib */,
+				85B5A959203EB8150031E3DE /* GroupHeaderView.swift */,
+				85B5A953203EB8150031E3DE /* GroupHeaderView.xib */,
+				85B5A950203EB8150031E3DE /* MessageItemCell.swift */,
+				85B5A954203EB8150031E3DE /* MessageItemCell.xib */,
+				85B5A955203EB8150031E3DE /* TextViewCell.swift */,
+				85B5A957203EB8150031E3DE /* TextViewCell.xib */,
+				857CBF2D1FAF3F9E00960A7C /* DateInputCell.swift */,
+				857CBF2E1FAF3F9E00960A7C /* DateInputCell.xib */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9B89CCF899BD101DDE637FFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85CE4C051FB06F1E001A0DAC /* IQKeyboardManagerSwift.framework */,
+				85CE4C031FB06F1B001A0DAC /* Alamofire.framework */,
+				85CE4C011FB06F0B001A0DAC /* Pods_MyCoin.framework */,
+				85CE4BFF1FB06EF5001A0DAC /* IQKeyboardManagerSwift.framework */,
+				9F774BC0BC0E00D26BFEB316 /* Pods_MyCoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858D5F681F95F29F00C0264E /* MyCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858D5F7B1F95F29F00C0264E /* Build configuration list for PBXNativeTarget "MyCoin" */;
+			buildPhases = (
+				3E584421CC0392C99BBDCE4E /* [CP] Check Pods Manifest.lock */,
+				858D5F651F95F29F00C0264E /* Sources */,
+				858D5F661F95F29F00C0264E /* Frameworks */,
+				858D5F671F95F29F00C0264E /* Resources */,
+				C4219CB38B5BF382FC4EDC50 /* [CP] Embed Pods Frameworks */,
+				EAC059B2C97ADD82BAADAF4C /* [CP] Copy Pods Resources */,
+				85DAC8691FB2F853000A194F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCoin;
+			productName = MyCoin;
+			productReference = 858D5F691F95F29F00C0264E /* MyCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858D5F611F95F29F00C0264E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wl;
+				TargetAttributes = {
+					858D5F681F95F29F00C0264E = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 858D5F641F95F29F00C0264E /* Build configuration list for PBXProject "MyCoin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				zh,
+			);
+			mainGroup = 858D5F601F95F29F00C0264E;
+			productRefGroup = 858D5F6A1F95F29F00C0264E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858D5F681F95F29F00C0264E /* MyCoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858D5F671F95F29F00C0264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8573EB292005B2C700068F1B /* InputAlertView.xib in Resources */,
+				850400FF1FDAA067006E76B4 /* TipsView.xib in Resources */,
+				85B5A95F203EB8150031E3DE /* GroupHeaderView.xib in Resources */,
+				85C982761FECB28900AD74FA /* ChartBalancesCell.xib in Resources */,
+				854F98BD1F97015C0032F28D /* LaunchScreen.storyboard in Resources */,
+				859631561FB93A550017B69F /* AlertView.xib in Resources */,
+				85C718581F97022900E6D46C /* Assets.xcassets in Resources */,
+				85B5A962203EB8150031E3DE /* TextFieldCell.xib in Resources */,
+				857B89AE1FBD95630098A166 /* LoadingView.xib in Resources */,
+				85F23F581FC15A6B0098EFFE /* AssetItemCell.xib in Resources */,
+				855F56E52028433D00DAC76B /* Main.storyboard in Resources */,
+				85B5A95D203EB8150031E3DE /* SwitchCell.xib in Resources */,
+				8507A56C1FCEA7FB00E774AB /* Localized.strings in Resources */,
+				85B5A960203EB8150031E3DE /* MessageItemCell.xib in Resources */,
+				8502EF191FEB937300BD0421 /* ChartStorageCell.xib in Resources */,
+				859F8A041FAF073B00430F1B /* PriceInputCell.xib in Resources */,
+				859896BB1FA70BA60079E525 /* CoinInfoCell.xib in Resources */,
+				85B5A963203EB8150031E3DE /* TextViewCell.xib in Resources */,
+				85B5A95A203EB8150031E3DE /* ItemCell.xib in Resources */,
+				85A198D11FCA7A1A0021A1CC /* BuyRecordCell.xib in Resources */,
+				85B5A969203EBEFD0031E3DE /* ProjectCoinCell.xib in Resources */,
+				85619D4B1FC27D76002841DA /* Coins.plist in Resources */,
+				85BD3EF61FB0528C009958B3 /* CoinResideCell.xib in Resources */,
+				857CBF301FAF3F9E00960A7C /* DateInputCell.xib in Resources */,
+				85C223181FAEF19F00A56F4B /* CoinTagCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E584421CC0392C99BBDCE4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85DAC8691FB2F853000A194F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"da60a5e96e\"\n# #\nBUGLY_APP_KEY=\"b1a0d3ed-8ec0-4a4e-ba96-705f393b5538\"\n# #\nBUNDLE_IDENTIFIER=\"com.wl.MyCoin\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n# UPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n    \n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n        P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n            P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n            \n            DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            echo \"-----------------------------\"\n            STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n            echo \"-----------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n        }\n        \n        # .dSYM解析为bSYMBOL文件\n        function dSYMParse() {\n            DSYM_FILE=\"$1\"\n            DSYM_SYMBOL_FILE=\"$2\"\n            \n            echo \"--------------------------------\"\n            echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n            (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n            echo \"--------------------------------\"\n            \n        }\n        \n        # 执行\n        function run() {\n            \n            CONFIG_BUGLY_APP_ID=\"$1\"\n            CONFIG_BUGLY_APP_KEY=\"$2\"\n            \n            CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n            CONFIG_BUGLY_APP_VERSION=\"$4\"\n            CONFIG_DSYM_SOURCE_DIR=\"$5\"\n            CONFIG_DSYM_DEST_DIR=\"$6\"\n            CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n            \n            # 检查必须参数是否设置\n            if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n            exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n            fi\n            \n            if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n            exitWithMessage \"Error: Bugly App ID not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n            exitWithMessage \"Error: Bugly App Key not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n            exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n            exitWithMessage \"Error: App Version not defined.\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n            fi\n            \n            if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            mkdir ${CONFIG_DSYM_DEST_DIR}\n            fi\n            \n            DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n            IFS=$'\\n'\n            \n            echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n            RET=\"F\"\n            \n            #\n            for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n            RET=\"T\"\n            echo \"Found dSYM file: $dsymFile\"\n            \n            DSYM_FILE_NAME=${dsymFile##*/}\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n                DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n                \n                if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n                if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n                fi\n                # 如果只上传dSYM，直接压缩dSYM目录\n                zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n                else\n                # 使用符号表工具来生成Symbol文件\n                dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n                fi\n                \n                # 上传\n                dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n                done\n                \n                if [ $RET = \"F\" ]; then\n                exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n                fi\n            }\n            \n            # 在Xcode工程中执行\n            function runInXcode(){\n                echo \"Uploading dSYM to Bugly in Xcode ...\"\n                \n                echo \"Info.Plist : ${INFOPLIST_FILE}\"\n                \n                BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n                BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n                \n                # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n                if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n                BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n                else\n                BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n                fi\n                \n                echo \"--------------------------------\"\n                echo \"Prepare application information.\"\n                echo \"--------------------------------\"\n                \n                echo \"Product Name: ${PRODUCT_NAME}\"\n                echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n                echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n                echo \"Build: ${BUNDLE_VERSION}\"\n                \n                echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n                echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n                echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n                \n                echo \"--------------------------------\"\n                echo \"Check the arguments ...\"\n                \n                ##检查模拟器编译是否允许上传符号\n                if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n                if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否是Release模式编译\n                if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n                if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否Archive操作\n                if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n                if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n                echo \"Archive the package\"\n                else\n                exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n                fi\n                fi\n                \n                #\n                run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n            }\n            \n            # 根据Xcode的环境变量判断是否处于Xcode环境\n            INFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n            \n            BuildInXcode=\"F\"\n            if [ -f \"${INFO_PLIST_FILE}\" ]; then\n            BuildInXcode=\"T\"\n            fi\n            \n            if [ $BuildInXcode = \"T\" ]; then\n            runInXcode\n            else\n            echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n            # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n            BUGLY_APP_ID=\"$1\"\n            BUGLY_APP_KEY=\"$2\"\n            BUNDLE_IDENTIFIER=\"$3\"\n            BUGLY_APP_VERSION=\"$4\"\n            DWARF_DSYM_FOLDER_PATH=\"$5\"\n            SYMBOL_OUTPUT_PATH=\"$6\"\n            UPLOAD_DSYM_ONLY=$7\n            run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\n            fi\n";
+		};
+		C4219CB38B5BF382FC4EDC50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCoin/Pods-MyCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC059B2C97ADD82BAADAF4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCoin/Pods-MyCoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858D5F651F95F29F00C0264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8581662B1FAC63C100F8D434 /* String.swift in Sources */,
+				8579892F1FB15F66004C810F /* ExchangeController.swift in Sources */,
+				8582ABF21FC91FC8007003E5 /* CollectionCoin.swift in Sources */,
+				854F98CF1F9701720032F28D /* Constant.swift in Sources */,
+				85B5A968203EBEFD0031E3DE /* ProjectCoinCell.swift in Sources */,
+				854F98D01F9701720032F28D /* Config.swift in Sources */,
+				85CF5D1D1FDE3565000C7C10 /* ChartViewController.swift in Sources */,
+				853FE8F81FA2C92C00E97AC2 /* Coins.swift in Sources */,
+				85B19F8E20303ABD003D350B /* UserSignUpViewController.swift in Sources */,
+				856BFA641FBED70600C1010E /* LeanCloudManager.swift in Sources */,
+				854F98D21F9701720032F28D /* AppDelegate.swift in Sources */,
+				85988944202FE6E9000F2B7D /* AppDelegate+rootWindow.swift in Sources */,
+				8526FAE71FCEAA3C008D9648 /* NSObject.swift in Sources */,
+				85F951E61FC55E2800AD5505 /* DataManager+restore.swift in Sources */,
+				85D9B3B11FB075D10025A078 /* EditWalletViewController.swift in Sources */,
+				854F98C01F97016D0032F28D /* UIScrollView.swift in Sources */,
+				856333781FC7F23D0031BF38 /* UIViewController.swift in Sources */,
+				85F951E81FC55E5800AD5505 /* DataManager+sync.swift in Sources */,
+				854F98C11F97016D0032F28D /* Print.swift in Sources */,
+				85AAFF091FB449C5009A3C79 /* CoinPrice.swift in Sources */,
+				853FE8FC1FA2DCAC00E97AC2 /* AppDelegate+documents.swift in Sources */,
+				8577EE351FAEF5BC0091489A /* UIColor+myCoin.swift in Sources */,
+				855F56E92028563200DAC76B /* NavigationController.swift in Sources */,
+				85B5A964203EB8150031E3DE /* SwitchCell.swift in Sources */,
+				854F98C21F97016D0032F28D /* UIView.swift in Sources */,
+				85D9B3B31FB076140025A078 /* EditExchangeViewController.swift in Sources */,
+				856936F920294A0E0094A56A /* TabBarController.swift in Sources */,
+				857CBF2F1FAF3F9E00960A7C /* DateInputCell.swift in Sources */,
+				8542230A1FDFB229006D5B66 /* FeedbackViewController.swift in Sources */,
+				85ACBF711FC539BF0055DF1C /* ErrorManager.swift in Sources */,
+				854F98C31F97016D0032F28D /* GCD.swift in Sources */,
+				854C0FEC1FA71870003B1A7A /* CurrencyViewController.swift in Sources */,
+				85C982751FECB28900AD74FA /* ChartBalancesCell.swift in Sources */,
+				854F98C41F97016D0032F28D /* UIColor.swift in Sources */,
+				856936FD20294AB40094A56A /* DHButton.swift in Sources */,
+				854F98C51F97016D0032F28D /* Notification+myCoin.swift in Sources */,
+				8566FA1E1FBEE8F000D51C27 /* Date.swift in Sources */,
+				850400FD1FDAA061006E76B4 /* TipsView.swift in Sources */,
+				8507A5631FCEA0B500E774AB /* Language.swift in Sources */,
+				854C0FEE1FA718CB003B1A7A /* UIStoryboard+myCoin.swift in Sources */,
+				85B5A95B203EB8150031E3DE /* ItemCell.swift in Sources */,
+				854F98C61F97016D0032F28D /* UserDefaults.swift in Sources */,
+				854F98C71F97016D0032F28D /* UIImage.swift in Sources */,
+				85D1508F2011E0080094AE34 /* AnalysisManager.swift in Sources */,
+				856936FB20294A210094A56A /* TabBar.swift in Sources */,
+				85AAFF0B1FB44BDE009A3C79 /* ViewAssetViewController.swift in Sources */,
+				85F23F571FC15A6B0098EFFE /* AssetItemCell.swift in Sources */,
+				857EA6EB1FAF348500DCC4F2 /* PercentChangeViewController.swift in Sources */,
+				857446671FBEBBF8001219CF /* DataManager.swift in Sources */,
+				857989331FB16351004C810F /* Entities.swift in Sources */,
+				8574C63A2021A7550045D952 /* CoinsHeaderBgView.swift in Sources */,
+				85B5A965203EB8150031E3DE /* GroupHeaderView.swift in Sources */,
+				8539ED6E2018857E00237133 /* PushMessageViewController.swift in Sources */,
+				85605C8F1FB2E60C0013FDA5 /* WalletViewController.swift in Sources */,
+				853B8B55203138E800B43C20 /* SettingsViewController.swift in Sources */,
+				85B5A95E203EB8150031E3DE /* TextFieldCell.swift in Sources */,
+				859896BA1FA70BA60079E525 /* CoinInfoCell.swift in Sources */,
+				85B5A95C203EB8150031E3DE /* MessageItemCell.swift in Sources */,
+				85BD3EF21FB00671009958B3 /* UITextField.swift in Sources */,
+				8507A5651FCEA31E00E774AB /* Localizations.swift in Sources */,
+				859896AD1FA700DD0079E525 /* UIDevice.swift in Sources */,
+				8587AEDF20298CAD000FABDB /* AssetsViewController.swift in Sources */,
+				85E1CE911FBD895300CD5C32 /* UserSignInViewController.swift in Sources */,
+				85A1778E1FD14879008BD0CC /* CoinCachePrice.swift in Sources */,
+				853C79BF202045500012EAAB /* GradientView.swift in Sources */,
+				85DF413A1FCA538A004E6600 /* ViewCoinHeaderView.swift in Sources */,
+				853EF8E8200F4832005F8FB7 /* MessageDetailViewController.swift in Sources */,
+				859896AF1FA7082E0079E525 /* CollectionViewController.swift in Sources */,
+				859631541FB93A4D0017B69F /* AlertView.swift in Sources */,
+				855F56E72028480F00DAC76B /* UIFont+myCoin.swift in Sources */,
+				856E84751FAEB48F0044D903 /* AppDelegate+settings.swift in Sources */,
+				85C223171FAEF19F00A56F4B /* CoinTagCell.swift in Sources */,
+				854F98CD1F97016D0032F28D /* UIStoryboard.swift in Sources */,
+				85C223141FAEE8AA00A56F4B /* EditAssetViewController.swift in Sources */,
+				85A198D01FCA7A1A0021A1CC /* BuyRecordCell.swift in Sources */,
+				859F8A061FAF109E00430F1B /* Appdelegate+defalutSettings.swift in Sources */,
+				85E4F021200F296200343B56 /* MessageViewController.swift in Sources */,
+				850326191F99D3D10062F91A /* Entities.xcdatamodeld in Sources */,
+				85B5A961203EB8150031E3DE /* TextViewCell.swift in Sources */,
+				85B3B24B1FA82168009C36CB /* SearchViewController.swift in Sources */,
+				8502EF181FEB937300BD0421 /* ChartStorageCell.swift in Sources */,
+				85D5E8701FB441EA003CEB8D /* NetworkManager.swift in Sources */,
+				8574453D1FCE55BB007176E4 /* AuthViewController.swift in Sources */,
+				857B89AC1FBD95580098A166 /* LoadingView.swift in Sources */,
+				85BD3EF51FB0528C009958B3 /* CoinResideCell.swift in Sources */,
+				859F8A031FAF073B00430F1B /* PriceInputCell.swift in Sources */,
+				859F8A001FAF017800430F1B /* Double.swift in Sources */,
+				8573EB272005B2BC00068F1B /* InputAlertView.swift in Sources */,
+				859896A31FA6C2A80079E525 /* UserDefaults+myCoin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8507A56E1FCEA7FB00E774AB /* Localized.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8507A56D1FCEA7FB00E774AB /* en */,
+				8507A56F1FCEA7FC00E774AB /* zh */,
+			);
+			name = Localized.strings;
+			sourceTree = "<group>";
+		};
+		856923711F96FF9D00511C90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856923721F96FF9D00511C90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858D5F791F95F29F00C0264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		858D5F7A1F95F29F00C0264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858D5F7C1F95F29F00C0264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81712233C116B07FE7238CE4 /* Pods-MyCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45258VY695;
+				INFOPLIST_FILE = "$(SRCROOT)/MyCoin/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wl.MyCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		858D5F7D1F95F29F00C0264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BC49BBC67C420C0023CABD /* Pods-MyCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45258VY695;
+				INFOPLIST_FILE = "$(SRCROOT)/MyCoin/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wl.MyCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858D5F641F95F29F00C0264E /* Build configuration list for PBXProject "MyCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D5F791F95F29F00C0264E /* Debug */,
+				858D5F7A1F95F29F00C0264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858D5F7B1F95F29F00C0264E /* Build configuration list for PBXNativeTarget "MyCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D5F7C1F95F29F00C0264E /* Debug */,
+				858D5F7D1F95F29F00C0264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		850326171F99D3D10062F91A /* Entities.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				850326181F99D3D10062F91A /* Data.xcdatamodel */,
+			);
+			currentVersion = 850326181F99D3D10062F91A /* Data.xcdatamodel */;
+			path = Entities.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 858D5F611F95F29F00C0264E /* Project object */;
+}

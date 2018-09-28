@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DateInputCell" rowHeight="62" id="1wK-hJ-Big" customClass="DateInputCell" customModule="MyCoin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1wK-hJ-Big" id="f2I-Hd-c0K">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="61.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EDK-XV-oZG">
+                        <rect key="frame" x="4" y="28" width="6" height="6"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.37647058820000001" blue="0.45882352939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="6" id="pOs-DB-sO4"/>
+                            <constraint firstAttribute="height" constant="6" id="zMk-gS-TLF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkd-cW-xUh">
+                        <rect key="frame" x="15" y="16" width="45" height="29"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="yyyy" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="55X-3D-u7H" customClass="TextField" customModule="MyCoin" customModuleProvider="target">
+                                <rect key="frame" x="5" y="-0.5" width="35" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Sc3-1f-8HQ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1wK-hJ-Big" id="659-pr-ch5"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.98039215690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="55X-3D-u7H" secondAttribute="bottom" id="Glz-Cr-Og0"/>
+                            <constraint firstItem="55X-3D-u7H" firstAttribute="leading" secondItem="dkd-cW-xUh" secondAttribute="leading" constant="5" id="MNW-93-6A3"/>
+                            <constraint firstAttribute="trailing" secondItem="55X-3D-u7H" secondAttribute="trailing" constant="5" id="QC3-4A-S1c"/>
+                            <constraint firstItem="55X-3D-u7H" firstAttribute="top" secondItem="dkd-cW-xUh" secondAttribute="top" id="iJJ-tn-SfE"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uuv-rY-FTU">
+                        <rect key="frame" x="65" y="21" width="5.5" height="20.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAd-nW-mBH">
+                        <rect key="frame" x="75" y="16" width="35" height="29"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="MM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TeH-Yz-OxI" customClass="TextField" customModule="MyCoin" customModuleProvider="target">
+                                <rect key="frame" x="5" y="0.0" width="25" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="205-yN-LGY"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1wK-hJ-Big" id="qym-yZ-qaI"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.98039215690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="TeH-Yz-OxI" secondAttribute="bottom" id="8FS-vA-aEH"/>
+                            <constraint firstAttribute="trailing" secondItem="TeH-Yz-OxI" secondAttribute="trailing" constant="5" id="T95-xJ-CWe"/>
+                            <constraint firstItem="TeH-Yz-OxI" firstAttribute="leading" secondItem="kAd-nW-mBH" secondAttribute="leading" constant="5" id="YT6-8U-ghk"/>
+                            <constraint firstItem="TeH-Yz-OxI" firstAttribute="top" secondItem="kAd-nW-mBH" secondAttribute="top" id="p8Y-ms-Vpq"/>
+                            <constraint firstAttribute="height" constant="29" id="vXI-kp-Ef6"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDY-ib-6Nc">
+                        <rect key="frame" x="115" y="20" width="5.5" height="20.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEw-ED-4Fk">
+                        <rect key="frame" x="125.5" y="16.5" width="35" height="29"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="dd" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CKn-Ig-Igb" customClass="TextField" customModule="MyCoin" customModuleProvider="target">
+                                <rect key="frame" x="5" y="0.0" width="25" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="844-J9-qqg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="1wK-hJ-Big" id="Rw4-yo-ncq"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.98039215690000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CKn-Ig-Igb" secondAttribute="trailing" constant="5" id="7a1-5o-7lg"/>
+                            <constraint firstAttribute="height" constant="29" id="BJM-sH-mAo"/>
+                            <constraint firstItem="CKn-Ig-Igb" firstAttribute="top" secondItem="tEw-ED-4Fk" secondAttribute="top" id="Zt5-dC-2hR"/>
+                            <constraint firstAttribute="bottom" secondItem="CKn-Ig-Igb" secondAttribute="bottom" id="i48-xc-DO2"/>
+                            <constraint firstItem="CKn-Ig-Igb" firstAttribute="leading" secondItem="tEw-ED-4Fk" secondAttribute="leading" constant="5" id="nj0-ad-aeu"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kAd-nW-mBH" firstAttribute="centerY" secondItem="tEw-ED-4Fk" secondAttribute="centerY" id="2K5-8y-3OU"/>
+                    <constraint firstItem="kAd-nW-mBH" firstAttribute="leading" secondItem="Uuv-rY-FTU" secondAttribute="trailing" constant="5" id="4rb-5q-JX0"/>
+                    <constraint firstItem="dkd-cW-xUh" firstAttribute="height" secondItem="kAd-nW-mBH" secondAttribute="height" id="5nc-Ez-Ufp"/>
+                    <constraint firstItem="dkd-cW-xUh" firstAttribute="centerY" secondItem="f2I-Hd-c0K" secondAttribute="centerY" id="8Hq-hM-OOs"/>
+                    <constraint firstItem="EDK-XV-oZG" firstAttribute="leading" secondItem="f2I-Hd-c0K" secondAttribute="leading" constant="4.5" id="8c6-lo-i0M"/>
+                    <constraint firstItem="EDK-XV-oZG" firstAttribute="centerY" secondItem="dkd-cW-xUh" secondAttribute="centerY" id="AaV-SP-EL5"/>
+                    <constraint firstItem="tEw-ED-4Fk" firstAttribute="leading" secondItem="KDY-ib-6Nc" secondAttribute="trailing" constant="5" id="Pt3-FI-nyV"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dkd-cW-xUh" secondAttribute="trailing" constant="15" id="SXr-ax-dbf"/>
+                    <constraint firstItem="dkd-cW-xUh" firstAttribute="leading" secondItem="f2I-Hd-c0K" secondAttribute="leading" constant="15" id="fND-t0-MG2"/>
+                    <constraint firstItem="tEw-ED-4Fk" firstAttribute="centerY" secondItem="f2I-Hd-c0K" secondAttribute="centerY" id="fjU-yV-ATB"/>
+                    <constraint firstItem="KDY-ib-6Nc" firstAttribute="leading" secondItem="kAd-nW-mBH" secondAttribute="trailing" constant="5" id="hJg-pg-4Xx"/>
+                    <constraint firstItem="Uuv-rY-FTU" firstAttribute="leading" secondItem="dkd-cW-xUh" secondAttribute="trailing" constant="5" id="piV-qq-9Lr"/>
+                    <constraint firstItem="Uuv-rY-FTU" firstAttribute="centerY" secondItem="tEw-ED-4Fk" secondAttribute="centerY" id="sb6-Mj-u87"/>
+                    <constraint firstItem="dkd-cW-xUh" firstAttribute="centerY" secondItem="KDY-ib-6Nc" secondAttribute="centerY" id="yAu-oA-eci"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="nCq-fh-aop"/>
+            <connections>
+                <outlet property="dayTextField" destination="CKn-Ig-Igb" id="lLE-8P-soY"/>
+                <outlet property="errorView" destination="EDK-XV-oZG" id="dM4-fp-yNg"/>
+                <outlet property="monthTextField" destination="TeH-Yz-OxI" id="2fi-Ym-Oj3"/>
+                <outlet property="yearTextField" destination="55X-3D-u7H" id="D0J-2j-zaO"/>
+            </connections>
+            <point key="canvasLocation" x="-111.5" y="-2"/>
+        </tableViewCell>
+    </objects>
+</document>

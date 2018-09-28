@@ -1,0 +1,147 @@
+
+/* Class = "UINavigationItem"; title = "我的资产"; ObjectID = "0aR-XN-k6R"; */
+"0aR-XN-k6R.title" = "我的资产";
+
+/* Class = "UILabel"; text = "暂无钱包数据，点击按钮新增"; ObjectID = "0fr-Mn-8Db"; */
+"0fr-Mn-8Db.text" = "暂无钱包数据，点击按钮新增";
+
+/* Class = "UINavigationItem"; title = "我的资产"; ObjectID = "0pq-EE-tDq"; */
+"0pq-EE-tDq.title" = "我的资产";
+
+/* Class = "UILabel"; text = "货币单位"; ObjectID = "2as-dF-D4v"; */
+"2as-dF-D4v.text" = "货币单位";
+
+/* Class = "UILabel"; text = "暂无市场数据，点击按钮新增"; ObjectID = "3El-Pv-FHD"; */
+"3El-Pv-FHD.text" = "暂无市场数据，点击按钮新增";
+
+/* Class = "UILabel"; text = "添加和整理显示在首页中的资产"; ObjectID = "3hn-d4-uR0"; */
+"3hn-d4-uR0.text" = "添加和整理显示在首页中的资产";
+
+/* Class = "UILabel"; text = "编辑市场"; ObjectID = "B5z-gH-cg9"; */
+"B5z-gH-cg9.text" = "编辑市场";
+
+/* Class = "UILabel"; text = "我的关注"; ObjectID = "BXT-Ju-DS8"; */
+"BXT-Ju-DS8.text" = "我的关注";
+
+/* Class = "UILabel"; text = "没有搜索到结果"; ObjectID = "Brl-MN-Rlh"; */
+"Brl-MN-Rlh.text" = "没有搜索到结果";
+
+/* Class = "UILabel"; text = "-¥380"; ObjectID = "Ca4-qB-cpa"; */
+"Ca4-qB-cpa.text" = "-¥380";
+
+/* Class = "UITextField"; placeholder = "password 6~20字符"; ObjectID = "Cq9-Vb-pwp"; */
+"Cq9-Vb-pwp.placeholder" = "password 6~20字符";
+
+/* Class = "UILabel"; text = "我的钱包"; ObjectID = "DPA-vk-xfh"; */
+"DPA-vk-xfh.text" = "我的钱包";
+
+/* Class = "UILabel"; text = "暂无关注数据，点击按钮新增"; ObjectID = "Eio-fq-Eck"; */
+"Eio-fq-Eck.text" = "暂无关注数据，点击按钮新增";
+
+/* Class = "UILabel"; text = "点击进行指纹验证"; ObjectID = "Ffd-ui-d3W"; */
+"Ffd-ui-d3W.text" = "点击进行指纹验证";
+
+/* Class = "UIButton"; normalTitle = "Go"; ObjectID = "FxL-VQ-Yln"; */
+"FxL-VQ-Yln.normalTitle" = "Go";
+
+/* Class = "UILabel"; text = "编辑资产"; ObjectID = "Gkc-bf-g2Q"; */
+"Gkc-bf-g2Q.text" = "编辑资产";
+
+/* Class = "UILabel"; text = "24h:"; ObjectID = "Iuf-52-jiO"; */
+"Iuf-52-jiO.text" = "24h:";
+
+/* Class = "UIButton"; normalTitle = "注销"; ObjectID = "L1P-Tv-pFs"; */
+"L1P-Tv-pFs.normalTitle" = "注销";
+
+/* Class = "UITextField"; placeholder = "请输入关键字搜索"; ObjectID = "OiL-r5-XDn"; */
+"OiL-r5-XDn.placeholder" = "请输入关键字搜索";
+
+/* Class = "UIButton"; normalTitle = "找回密码"; ObjectID = "Q7c-x0-4wI"; */
+"Q7c-x0-4wI.normalTitle" = "找回密码";
+
+/* Class = "UILabel"; text = "7d:"; ObjectID = "QBd-ab-BLm"; */
+"QBd-ab-BLm.text" = "7d:";
+
+/* Class = "UILabel"; text = "涨跌周期"; ObjectID = "SZu-ps-9aW"; */
+"SZu-ps-9aW.text" = "涨跌周期";
+
+/* Class = "UILabel"; text = "市值:¥22343558000"; ObjectID = "T4h-dV-7Ir"; */
+"T4h-dV-7Ir.text" = "市值:¥22343558000";
+
+/* Class = "UILabel"; text = "Bitcoin"; ObjectID = "XsQ-6u-V97"; */
+"XsQ-6u-V97.text" = "Bitcoin";
+
+/* Class = "UILabel"; text = "¥380"; ObjectID = "ZCt-8M-KJQ"; */
+"ZCt-8M-KJQ.text" = "¥380";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "ZHS-BI-hDV"; */
+"ZHS-BI-hDV.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "更新时间:2017年11月13日16:20:34"; ObjectID = "ZPt-Q5-EI5"; */
+"ZPt-Q5-EI5.text" = "更新时间:2017年11月13日16:20:34";
+
+/* Class = "UILabel"; text = "当前登陆:user@email.com"; ObjectID = "aWw-dy-LLt"; */
+"aWw-dy-LLt.text" = "当前登陆:user@email.com";
+
+/* Class = "UILabel"; text = "市值 No.1"; ObjectID = "anz-pp-GiN"; */
+"anz-pp-GiN.text" = "市值 No.1";
+
+/* Class = "UILabel"; text = "我的资产"; ObjectID = "bs9-Lg-0uC"; */
+"bs9-Lg-0uC.text" = "我的资产";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "cB6-9H-E9V"; */
+"cB6-9H-E9V.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "cUI-ZK-R5a"; */
+"cUI-ZK-R5a.text" = "0.00";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "cqH-GM-3jM"; */
+"cqH-GM-3jM.normalTitle" = "Sign up";
+
+/* Class = "UILabel"; text = "编辑钱包"; ObjectID = "dhc-cD-uDE"; */
+"dhc-cD-uDE.text" = "编辑钱包";
+
+/* Class = "UILabel"; text = "¥380"; ObjectID = "dsZ-wH-3pO"; */
+"dsZ-wH-3pO.text" = "¥380";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "fLV-xN-GVJ"; */
+"fLV-xN-GVJ.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "≈"; ObjectID = "gee-oD-0Vq"; */
+"gee-oD-0Vq.text" = "≈";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "gnB-Rb-UTQ"; */
+"gnB-Rb-UTQ.normalTitle" = "Sign in";
+
+/* Class = "UILabel"; text = "1h:"; ObjectID = "lhb-wX-1jI"; */
+"lhb-wX-1jI.text" = "1h:";
+
+/* Class = "UILabel"; text = "BTC"; ObjectID = "nP5-pW-Vkk"; */
+"nP5-pW-Vkk.text" = "BTC";
+
+/* Class = "UILabel"; text = "设置"; ObjectID = "p3z-Pk-F89"; */
+"p3z-Pk-F89.text" = "设置";
+
+/* Class = "UITextField"; placeholder = "user@email.com"; ObjectID = "q2z-Dv-dX0"; */
+"q2z-Dv-dX0.placeholder" = "user@email.com";
+
+/* Class = "UINavigationItem"; title = "我的资产"; ObjectID = "rvL-Nv-Yhk"; */
+"rvL-Nv-Yhk.title" = "我的资产";
+
+/* Class = "UILabel"; text = "我的市场"; ObjectID = "s8b-1K-Rhb"; */
+"s8b-1K-Rhb.text" = "我的市场";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "taE-3z-EpN"; */
+"taE-3z-EpN.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "总资产(¥)"; ObjectID = "ugP-D5-Qxw"; */
+"ugP-D5-Qxw.text" = "总资产(¥)";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "v0Y-3c-WPy"; */
+"v0Y-3c-WPy.normalTitle" = "删除";
+
+/* Class = "UILabel"; text = "查看资产"; ObjectID = "yjJ-x8-tpn"; */
+"yjJ-x8-tpn.text" = "查看资产";
+
+/* Class = "UILabel"; text = "当前价格:¥58000"; ObjectID = "zIX-5X-fIz"; */
+"zIX-5X-fIz.text" = "当前价格:¥58000";
